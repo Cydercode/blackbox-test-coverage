@@ -4,6 +4,7 @@ import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.hamcrest.core.IsEqual.equalTo;
@@ -63,6 +64,10 @@ public class MicroserviceTest {
                 .and()
                     .log()
                         .all();
+    }
+
+    public void shouldGetStatistics() {
+
     }
 
     private RequestSpecification restAssured() {

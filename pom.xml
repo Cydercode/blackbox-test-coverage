@@ -18,12 +18,13 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.7.9</version>
                 <configuration>
-                    <dataFile>record.exec</dataFile>
+                    <dataFile>jacoco.exec</dataFile>
                 </configuration>
             </plugin>
         </plugins>
@@ -62,6 +63,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
 </project>
