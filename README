@@ -1,0 +1,1 @@
+-javaagent:/home/mint/work/bin/jacoco-0.7.9/lib/jacocoagent.jar=destfile=record.exec,includes=com.cydercode.*
